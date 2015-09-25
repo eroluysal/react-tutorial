@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://fb.me/react-0.13.3.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="build/app.js" type="text/jsx"></script>
+  </head>
+  <body>
+    <div id="container" class="container"></div>
+    <style>
+      * {
+        box-sizing: border-box;
+        outline: none !important;
+      }
+
+      body {
+        font: 14px Arial;
+      }
+
+      .clearfix,
+      .clearfix:before,
+      .clearfix:after {
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0%;
+        content: " ";
+      }
+
+      .container {
+        width: 960px;
+        margin: 0 auto;
+      }
+
+      .github-repository-name {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+      }
+
+      .github-repository-description {
+        margin-bottom: 5px;
+      }
+
+      .github-repository-features {
+        font-size: .8em;
+        padding: 10px 0;
+      }
+
+      .github-repository-features .github-repository-forks,
+      .github-repository-features .github-repository-watchers {
+        float: left;
+        margin: 0 5px 0 0;
+      }
+
+      .github-repository-clone-url {
+        color: gray;
+        font-style: italic;
+      }
+
+      .github-repository-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .github-repository-item {
+        padding: 15px;
+        border: dotted 10px #ebebeb;
+      }
+
+      .github-username-text-input {
+        display: block;
+        font-size: 2em;
+        width: 100%;
+        padding: 15px;
+      }
+    </style>
+  </body>
+</html>
